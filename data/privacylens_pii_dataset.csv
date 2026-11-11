@@ -1,0 +1,31 @@
+sample_id,text,entities_json,has_pii,split
+P001,My name is Aarav Mehta. Call me at 9876543210 or email aarav.mehta@example.com.,"[{""text"": ""Aarav Mehta"", ""label"": ""PERSON"", ""start"": 11, ""end"": 22}, {""text"": ""9876543210"", ""label"": ""PHONE"", ""start"": 35, ""end"": 45}, {""text"": ""aarav.mehta@example.com"", ""label"": ""EMAIL"", ""start"": 55, ""end"": 78}]",True,train
+P002,"Please send the parcel to 24 Park Street, New Delhi. The recipient is Nisha Rao.","[{""text"": ""24 Park Street, New Delhi"", ""label"": ""ADDRESS"", ""start"": 26, ""end"": 51}, {""text"": ""Nisha Rao"", ""label"": ""PERSON"", ""start"": 70, ""end"": 79}]",True,train
+P003,DOB: 14/08/2002. Contact number: +91 9123456780.,"[{""text"": ""14/08/2002"", ""label"": ""DOB"", ""start"": 5, ""end"": 15}, {""text"": ""+91 9123456780"", ""label"": ""PHONE"", ""start"": 33, ""end"": 47}]",True,train
+P004,I am Kabir Shah and my email is kabir.shah@testmail.org.,"[{""text"": ""Kabir Shah"", ""label"": ""PERSON"", ""start"": 5, ""end"": 15}, {""text"": ""kabir.shah@testmail.org"", ""label"": ""EMAIL"", ""start"": 32, ""end"": 55}]",True,train
+P005,The customer ID is 4829-1736-2051. Please keep it confidential.,"[{""text"": ""4829-1736-2051"", ""label"": ""ID_NUMBER"", ""start"": 19, ""end"": 33}]",True,train
+P006,"Riya Sen lives at 8 Lake View Road, Jaipur and can be reached on 9988776655.","[{""text"": ""Riya Sen"", ""label"": ""PERSON"", ""start"": 0, ""end"": 8}, {""text"": ""8 Lake View Road, Jaipur"", ""label"": ""ADDRESS"", ""start"": 18, ""end"": 42}, {""text"": ""9988776655"", ""label"": ""PHONE"", ""start"": 65, ""end"": 75}]",True,train
+P007,"For account recovery, write to dev.kumar@sample.net.","[{""text"": ""dev.kumar@sample.net"", ""label"": ""EMAIL"", ""start"": 31, ""end"": 51}]",True,train
+P008,Name: Tara Iyer; Date of birth: 03-11-1999; Phone: 9012345678.,"[{""text"": ""Tara Iyer"", ""label"": ""PERSON"", ""start"": 6, ""end"": 15}, {""text"": ""03-11-1999"", ""label"": ""DOB"", ""start"": 32, ""end"": 42}, {""text"": ""9012345678"", ""label"": ""PHONE"", ""start"": 51, ""end"": 61}]",True,train
+P009,"Send the documents to Flat 12, Rose Apartments, Pune.","[{""text"": ""Flat 12, Rose Apartments, Pune"", ""label"": ""ADDRESS"", ""start"": 22, ""end"": 52}]",True,train
+P010,This form belongs to Manav Joshi. His alternate email is manav.j@example.org.,"[{""text"": ""Manav Joshi"", ""label"": ""PERSON"", ""start"": 21, ""end"": 32}, {""text"": ""manav.j@example.org"", ""label"": ""EMAIL"", ""start"": 57, ""end"": 76}]",True,train
+P011,Emergency contact: +1 202-555-0147. Contact name: Elena Brooks.,"[{""text"": ""+1 202-555-0147"", ""label"": ""PHONE"", ""start"": 19, ""end"": 34}, {""text"": ""Elena Brooks"", ""label"": ""PERSON"", ""start"": 50, ""end"": 62}]",True,train
+P012,"The registered address is 51 Cedar Lane, Springfield.","[{""text"": ""51 Cedar Lane, Springfield"", ""label"": ""ADDRESS"", ""start"": 26, ""end"": 52}]",True,train
+P013,Employee reference number: EMP-2048-771.,"[{""text"": ""EMP-2048-771"", ""label"": ""ID_NUMBER"", ""start"": 27, ""end"": 39}]",True,train
+P014,I am Zoya Khan. My birthday is 21/12/2001 and I use zoya.khan@demo.in.,"[{""text"": ""Zoya Khan"", ""label"": ""PERSON"", ""start"": 5, ""end"": 14}, {""text"": ""21/12/2001"", ""label"": ""DOB"", ""start"": 31, ""end"": 41}, {""text"": ""zoya.khan@demo.in"", ""label"": ""EMAIL"", ""start"": 52, ""end"": 69}]",True,train
+P015,Reach the office on 011-4567-8901 during working hours.,"[{""text"": ""011-4567-8901"", ""label"": ""PHONE"", ""start"": 20, ""end"": 33}]",True,train
+P016,"Please update the profile for Arjun Nair, address: 17 Green Park, Kochi.","[{""text"": ""Arjun Nair"", ""label"": ""PERSON"", ""start"": 30, ""end"": 40}, {""text"": ""17 Green Park, Kochi"", ""label"": ""ADDRESS"", ""start"": 51, ""end"": 71}]",True,train
+P017,The reference code is ZX-730194 and the request is pending.,"[{""text"": ""ZX-730194"", ""label"": ""ID_NUMBER"", ""start"": 22, ""end"": 31}]",True,train
+P018,"Contact: Meera Das, meera.das@example.com, +91 9000012345.","[{""text"": ""Meera Das"", ""label"": ""PERSON"", ""start"": 9, ""end"": 18}, {""text"": ""meera.das@example.com"", ""label"": ""EMAIL"", ""start"": 20, ""end"": 41}, {""text"": ""+91 9000012345"", ""label"": ""PHONE"", ""start"": 43, ""end"": 57}]",True,train
+P019,Birth date recorded as 1998-05-19 for the sample profile.,"[{""text"": ""1998-05-19"", ""label"": ""DOB"", ""start"": 23, ""end"": 33}]",True,train
+P020,"Deliver to 3/14 Orchard Street, Chennai. Recipient: Ishan Verma.","[{""text"": ""3/14 Orchard Street, Chennai"", ""label"": ""ADDRESS"", ""start"": 11, ""end"": 39}, {""text"": ""Ishan Verma"", ""label"": ""PERSON"", ""start"": 52, ""end"": 63}]",True,train
+N001,The meeting is scheduled for Friday at 10:30 AM in the main hall.,[],False,test
+N002,Our support team will reply within two business days.,[],False,test
+N003,The weather report predicts light rain across the northern region.,[],False,test
+N004,The project code is BLUE-SKY and the release version is 2.4.1.,[],False,test
+N005,Please contact the help desk through the support page.,[],False,test
+N006,The delivery contains three boxes and one envelope.,[],False,test
+N007,The workshop begins on 12 September at the city library.,[],False,test
+N008,Aarav's team completed the task yesterday.,"[{""text"": ""Aarav"", ""label"": ""PERSON"", ""start"": 0, ""end"": 5}]",True,test
+N009,"The sample phone extension is 204, and the office is on the second floor.",[],False,test
+N010,Use the placeholder email user@example.com in the documentation.,"[{""text"": ""user@example.com"", ""label"": ""EMAIL"", ""start"": 26, ""end"": 42}]",True,test
